@@ -1,9 +1,12 @@
-# Python - Interactive Applications | Foundational Python Programming
+# 🐍 Python - Interactive Applications | Foundational Python Programming
 
 ## Description
 - In this project, I focused on developing practical skills by creating interactive programs, including a user-friendly calculator and a unit converter. This experience taught me the importance of clean code, user input handling, and error management, equipping me with the ability to craft software that effectively addresses real-world needs. The project not only honed my technical abilities in Python but also underscored the value of applying programming solutions to everyday problems, demonstrating a keen understanding of software development principles in tangible applications.
 
-## Temperature Converter Walk-Through:
+## 🌡️ Temperature Converter:
+
+<b> Code Overview: </b>
+- This code prompts the user to input a temperature in Fahrenheit, converts it to Celsius using the formula (temperature - 32) / 1.8, and then displays the converted temperature.
 
 ```python
 temperature = float(input("Temperature in Fahrenheit:"))
@@ -22,7 +25,10 @@ Arithmetic Operations:
 User Input/Output: 
 - Gained experience in writing interactive Python scripts that engage the user for input and display output based on that input, a crucial skill for developing user-friendly programs.
 
-## Four-Function Calculator
+## ➗ Four-Function Calculator
+
+<b> Code Overview: </b>
+- This code prompts the user to input two numbers and select an operation from addition, subtraction, multiplication, or division. It then performs the chosen operation and displays the result.
 
 ```python
 firstNumber = float(input("Enter firstNumber:"))
@@ -59,7 +65,10 @@ Error Handling:
 User Input Validation:
 - Learned to prompt the user for specific inputs and validate those inputs, a key skill for creating interactive and error-resistant applications.
 
- ## Exponents
+ ## 📈 Exponents
+
+ <b> Code Overview: </b>
+ - This code initializes a variable with the value 2 and repeatedly prints its current value while raising it to the power of 2 in each iteration, until the value exceeds 1000.
 
 ```python
 currentValue = 2
