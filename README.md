@@ -5,9 +5,11 @@
 
 ## Temperature Converter Walk-Through:
 
+```python
 temperature = float(input("Temperature in Fahrenheit:"))
 converted = (temperature - 32) / 1.8
 print("Converted:", converted)
+```
 
 <b> Skills Developed - </b>
 
@@ -19,3 +21,60 @@ Arithmetic Operations:
   
 User Input/Output: 
 - Gained experience in writing interactive Python scripts that engage the user for input and display output based on that input, a crucial skill for developing user-friendly programs.
+
+## Four-Function Calculator
+
+```python
+firstNumber = float(input("Enter firstNumber:"))
+secondNumber = float(input("Enter secondNumber:"))
+print("Menu:")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+operation = int(input("Enter an operation (1/2/3/4):"))
+if operation == 1:
+    result = firstNumber + secondNumber
+    print("Results:", result)
+elif operation == 2:
+    result = firstNumber - secondNumber
+    print("Results:", result)
+elif operation == 3:
+    result = firstNumber * secondNumber
+    print("Results:", result)
+elif operation == 4:
+    if secondNumber != 0:
+        result = firstNumber / secondNumber
+        print("Results:", result)
+```
+
+<b> Skills Developed - </b>
+
+Complex Conditional Logic: 
+- Used if-elif-else statements to execute different calculations based on user input, teaching you how to direct the flow of a program based on conditions.
+  
+Error Handling:
+- Implemented basic checks to prevent divide-by-zero errors, an introduction to error handling in Python that ensures your programs can handle unexpected inputs gracefully.
+  
+User Input Validation:
+- Learned to prompt the user for specific inputs and validate those inputs, a key skill for creating interactive and error-resistant applications.
+
+ ## Exponents
+
+```python
+currentValue = 2
+while currentValue < 1000:
+    print("Current Value:", currentValue)
+    currentValue = currentValue ** 2
+```
+
+<b> Skills Developed - </b>
+
+While Loops: 
+- Utilized a while loop to perform repeated calculations until a certain condition was met (currentValue < 1000), crucial for executing a block of code multiple times based on dynamic conditions.
+
+Exponentiation: 
+- Practiced using the exponentiation operator to raise a number to a power, a specific mathematical operation that's widely used in various programming scenarios.
+  
+Loop Control and Iteration: 
+- Gained a deeper understanding of controlling loop execution and the iterative process, important for tasks that require processing sequences of data or repeated operations.
